@@ -1,7 +1,9 @@
 # PROJECT NAME:
 DELANI STUDIO
-#### Date of current version: 
+#### Year of current version: 
 2020
+## Author Name
+Marion Vutagwa
 #### By:
 Marion
 ## Description
