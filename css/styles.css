@@ -24,3 +24,19 @@
     left: 50%;
     transform: translate(-50, -50);
 }
+/* container holding image d3 and text */
+.container {
+    position: relative;
+    text-align: center;
+    color: cornsilk;
+  }
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50, -50);
+}
+p{text-align: center;}
+h1, h2{text-align: center;}
+
