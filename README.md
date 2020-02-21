@@ -15,7 +15,7 @@ Marion
 ## Known Bugs
 Are no known bugs
 # BDD
-THe application handles name giving system to people of a specific gender born on a specific day.
+THe application handles submition of name, addres and message then saves the message and returns a thank you message.
 ## Technologies Used
 * HTML
 * CSS 
