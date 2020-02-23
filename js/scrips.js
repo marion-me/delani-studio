@@ -26,3 +26,26 @@ $(document).ready(function(){
          $("p.par_3").hide();
      }); 
   });
+
+
+  $(document).ready(function(event){
+    $(".submit").click(fuction(){
+        event.preventDefault();
+            console.log("Clicked button");
+            
+            var email = $(".email").val();
+            var name = $(".name").val();
+            var message = $(".message").val();
+            Var statusElm = $(".status");
+            
+        if(email.length > 5 && email.include("@") && email.include("."){
+            console.log("Email is valid");
+        });else {
+            console.log("Email is not valid");
+            }
+});alert("thank you + name + for your feed back")
+event.preventDefault();
+})
+        
+            
+    
