@@ -38,6 +38,6 @@
     transform: translate(-50, -50);
 }
 p{text-align: center;}
-h1, h2{text-align: center;}
+h1, h2{text-align: center; color: darkblue;}
 body{text-align: center;}
 
