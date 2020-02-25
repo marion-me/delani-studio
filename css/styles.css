@@ -37,7 +37,7 @@
     left: 50%;
     transform: translate(-50, -50);
 }
-h1, h2{text-align: center;}
+h1, h2{text-align: center; font-weight: bolder;}
 body{text-align: center;}
 
 @import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700&display=swap');
@@ -54,8 +54,8 @@ body{text-align: center;}
 
 .image {
   display: block;
-  width: 100%;
-  height: auto;
+  width: 1000px;
+  height: 500px;
 }
 
 .overlay {
@@ -105,11 +105,6 @@ body{
 h3{
   text-align: center;
 }
-
-.mouse-icon{
-  padding:10%;
-  animation: bounce 2s infinite;
-}
 #name{
   margin-left: 500px;
   margin-top: 20px;
@@ -132,3 +127,15 @@ h3{
 }
 #submit{
   margin-left: 1000px;
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
