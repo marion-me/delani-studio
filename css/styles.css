@@ -1,50 +1,64 @@
-/* container holding image d1 and text */
-.container {
-    position: relative;
-    text-align: center;
-    color: white;
-  }
-  /* Centered text */
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50, -50);
+#land{
+  background-image: url("../images/d1.jpg");
+  height:100vh;
+  background-size: cover;
 }
-/* container holding image d2 and text */
-.container {
-    position: relative;
-    text-align: center;
-    color: black;
-  }
-/* Centered text */
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50, -50);
+.home{
+  color:white;
+  text-align: center;
+  padding-top: 300px;
+  font-size: bolder;
 }
-/* container holding image d3 and text */
-.container {
-    position: relative;
-    text-align: center;
-    color: cornsilk;
-  }
-/* Centered text */
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50, -50);
+.mouse-icon{
+  padding:10%;
+  animation: bounce 2s infinite;
 }
-h1, h2{text-align: center; font-weight: bolder;}
-@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700&display=swap');
+#about{
+  text-align: center;
+  font-family: 'Copse', serif;
+  font-size: 20px;
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700,700i&display=swap');
-
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i&display=swap');
-
-
+}
+#about h1{
+  font-size: 20px;
+  font-weight: bold;
+}
+#service{
+  background-image: url("../images/d2.jpeg");
+  text-align:center;
+  color: white;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Copse', serif;
+  font-size: 20px;
+  height:48vh;
+  padding-top: 10%;
+}
+.servicesoverlay{
+  background-color: rgba(0,0,0,0.4);
+  padding-top: 10%;
+}
+.what-we-do{
+  font-family: 'Quattrocento', serif;
+  text-align: center;
+  padding-top: 40px;
+  font-family: 'Gabriela', serif;
+  font-size: 15px;
+}
+.what-we-do .headings{
+  padding-bottom: 38px;
+}
+h3{
+  text-align: center;
+}
+.contact{
+  background-image: url("../images/d3.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:50vh;
+}
 .container {
   position: relative;
   width: 50%;
