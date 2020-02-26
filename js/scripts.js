@@ -6,8 +6,8 @@ function submit(){
       alert("Make sure all field are filled")
   }
   else{
-  alert("Thank you for contacting use. we hae recived your message" + ' ' + name );
-  }
+  alert("Thank you for contacting use. we hae recived your message" + ' ' + name )
+  };
   };
 /* user interface*/
 $(document).ready(function(){
