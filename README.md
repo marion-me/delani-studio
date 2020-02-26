@@ -21,7 +21,7 @@ THe application handles submition of name, addres and message then saves the mes
 * CSS 
 * JavaScript
 ## link
-https://marionvutagwa.github.io/delani-studio/.
+Here is a link to my landing page https://marionvutagwa.github.io/delani-studio/.
 ### License
 * licensed under MIT license by moringa school [MITlicense] (LICENSE)
 Copyright (c) {2020} Marion 
